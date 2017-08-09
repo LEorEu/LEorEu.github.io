@@ -1,0 +1,86 @@
+@media  (max-width:1750px){
+    #p4 .work-hex .work-line{
+       width: 45%;
+    }
+    #p4 .work-hex .tl{
+        left: -80px;
+    }
+    #p4 .work-hex .tr{
+       right: -80px;
+    }
+}
+@media  (max-width:1450px){
+    #p3 .time .event-main .event-list .event-info p{
+        font-size: 24px;
+    }
+    #p3 .time .time-top .time-title{
+        margin-top: 50px;
+    }
+    #p3 .time .event-main{
+        top: 22%;
+    }
+}
+@media  (max-width:1366px){
+    #p3 .time .event-main .event-list .event-info p{
+        font-size: 20px;
+    }
+    #p3 .time .time-top .time-title{
+        margin-top: 30px;
+    }
+    #p3 .time .event-main{
+        top: 20%;
+    }
+    #p4 .work-hex .work-list{
+        height: 450px;
+    }
+    #p4 .work-hex .work-list .work{
+        height: 450px;
+    }
+    #p4 .work-hex .work-list .work .overflows{
+        height: 450px;
+    }
+}
+@media  (max-width:1024px){
+    body{
+        overflow: auto;
+    }
+    div.container main{
+        float: none;
+    }
+    div.container main section{
+        float: none;
+    }
+    div.container main #p1{
+        display: block;
+    }
+    #p1 .main .top{
+        margin-top: 100px;    
+    }
+    #p1 .top h1{
+        font-size: 36px;    
+    }
+    #p1 .top .name .s-l{
+        width: 35%;
+    }
+    #p1 .top .name .s-r{
+        width: 35%;
+    }
+    #p1 .tabbox{
+        height: auto;
+        margin-top: 50px;
+    }
+    #p1 .tabbox .head-img{
+        float: none;
+        margin: 0 auto; 
+    }
+    #p1 .tabbox .info-box{
+        float: none;
+        margin: 50px auto;    
+    }
+    #p2 .skill-box .skill-about{
+        
+    }
+    div.scrollBar{
+        display: none;
+    }
+}
